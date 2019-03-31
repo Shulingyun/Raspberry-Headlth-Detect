@@ -1,0 +1,31 @@
+Server_Ip=192.168.2.101
+Server_Port=8731
+Client_Port=10004
+Ctrl_Port=9000
+Msg_Port=8732
+My_Name=zhy
+Log_File=./log
+From=192.168.2.90
+To=192.168.2.200
+INS=5
+WriteEveryTime=5
+Interaction=5
+MaxTimes=10
+Backfile=./log
+Udp_Port=8888
+File_Max=31457280    
+
+Src100=CpuLog.sh
+Src101=MemLog.sh
+Src102=DiskLog.sh
+Src103=ProcLog.sh
+Src104=SysInfo.sh
+Src105=Users.sh
+
+
+
+分布式监控系统
+
+gcc test_mysql.c -L/usr/bin/mysql -I/usr/include/mysql -lmysqlclient -lz
+netstat -alnt 
+lsof 
